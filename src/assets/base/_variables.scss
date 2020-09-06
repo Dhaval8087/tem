@@ -1,0 +1,41 @@
+$primary: #3cb7d7;
+$secondary: #3296af;
+$success: #48bb78;
+$info: #f0eff0;
+$warning: #ff9f1a;
+$danger: #ef6360;
+$light: #edf8fb;
+$dark: #11323b;
+
+$text-muted: #99999b;
+$bg-color:#edf2f7;
+$bg-secondary: #fbfbfb;
+$white: #ffffff;
+$input-placeholder-color:#e3e6eb;
+
+$input-bg: $bg-secondary;
+
+
+$base_px: 16;
+$toRems: (1 / $base_px) + 0rem;
+
+$font-path: "fonts";
+$font-family-base: 'Lato', sans-serif;
+
+$font-size-base: 16;
+$font-size-normal: 14px;
+$font-size-sm: 10 * $toRems;
+
+$lead-font-size: 16 * $toRems;
+$small-font-size: 12 * $toRems;
+
+$headings-font-weight: normal;
+$h1-font-size: 22 * $toRems;
+$h2-font-size: 18 * $toRems;
+$font-size-large: 24px;
+
+$icomoon-font-path: $font-path;
+$icomoon-font-family: 'tem';
+$icon-hourglass: "\e900";
+$icon-clock: "\e908";
+$icon-world:"\e91e";

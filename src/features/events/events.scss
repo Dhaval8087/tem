@@ -1,0 +1,39 @@
+@import "assets/main.scss";
+
+.event-container {
+  display: table;
+  width: 100%;
+}
+
+
+.right-half {
+  position: absolute;
+  height: 90vh;
+  overflow-y: scroll;
+  right: 0px;
+  width: 75%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.btn-signup {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.text-muted {
+  color: $text-muted;
+  margin-left: 1px;
+}
+.event__card {
+  display: flex;
+  flex-direction: column;
+}
+.event__date {
+  padding: 25px 0px 25px 0px;
+  color: $text-muted;
+  font-size: small;
+  margin-left:2px;
+}
+.close {display: none;}
+.eventName {
+  color: $success;
+}

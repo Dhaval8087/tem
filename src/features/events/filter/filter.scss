@@ -1,0 +1,14 @@
+.filter__text {
+  width: 100px;
+}
+.filter__check {
+  margin-left: 15px;
+}
+.time__filter {
+  margin-top: 15px;
+}
+.form-group {
+  &.remove__bottom__margin {
+    margin-bottom: 0px;
+  }
+}

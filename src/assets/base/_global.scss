@@ -1,0 +1,45 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-color;
+}
+
+html {
+  overflow: hidden;
+}
+a {
+  cursor: pointer;
+}
+// BS Buttons
+
+$btn-font-size-lg: 15px;
+$btn-padding-x-lg: 19px;
+$btn-padding-y-lg: 16px;
+$btn-border-radius: 2px;
+
+
+.btn-light {
+  border-color: $primary;
+  color: $dark;
+  font-size: 15px;
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+input[type="text"] {
+  border-radius: 4px;
+  font-size: 15px;
+  background-color:$input-bg;
+  &:focus {
+    border: 1px solid $primary;
+    outline: none;
+  }
+  &::placeholder {
+    color: $input-placeholder-color
+  }
+}
+.inline-box{
+  display: -webkit-inline-box;
+}
